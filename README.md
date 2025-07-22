@@ -1,4 +1,4 @@
-# ⚛️ React Router DOM Practice Project
+# ⚛️ React Router DOM Project
 
 A beginner-friendly React project built to explore the basics of client-side routing using **React Router DOM**. Created as part of my journey to understand how navigation works in single-page applications.
 

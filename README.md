@@ -1,12 +1,52 @@
-# React + Vite
+# ⚛️ React Router DOM Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly React project built to explore the basics of client-side routing using **React Router DOM**. Created as part of my journey to understand how navigation works in single-page applications.
 
-Currently, two official plugins are available:
+## 🚀 What I Built
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Simple multi-page layout using `react-router-dom`
+- Navigation between pages like Home, About, Contact, etc.
+- Dynamic routing structure with clean URL paths
+- Component-based structure with modular routing setup
 
-## Expanding the ESLint configuration
+## 🧭 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router DOM
+- Vite (for faster development build)
+- HTML & CSS
+
+## 📁 Folder Structure
+src/
+├── assets/
+├── Components/
+│   ├── User/
+│   │   ├── Login.jsx
+│   │   ├── Signup.jsx
+│   │   └── User.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   ├── GitHub.jsx
+│   ├── Header.jsx
+│   ├── Home.jsx
+│   └── Layout.jsx
+
+## 📹 Demo Video
+
+[🎥 Watch on LinkedIn](https://www.linkedin.com/posts/dhruv-sharma-25822228a_reactjs-reactrouterdom-frontenddevelopment-activity-7352725734794133506-C8xU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYn6OQBWH40HzzEtatmhkNByzOSECexY-I)
+
+## 💡 What I Learned
+
+- Implementing routes using `<Routes>` and `<Route>`
+- Creating nested layouts with a shared header/footer
+- Navigating between pages using `useNavigate` and `Link`
+- Structuring pages and components modularly
+
+## 🙋‍♂️ Author
+
+**Dhruv Sharma**  
+[GitHub Profile](https://github.com/DhruvSharma49)
+
+ 🧪 *Built as a learning project to get comfortable with React Router DOM and page navigation in React apps.*
+

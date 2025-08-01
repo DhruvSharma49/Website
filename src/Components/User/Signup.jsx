@@ -23,10 +23,11 @@ function SignUp() {
   return (
     <div className="min-h-screen w-full flex items-center justify-center bg-white">
       <div className="w-full max-w-5xl h-[500px] shadow-xl border border-gray-200 rounded-2xl flex overflow-hidden animate-fadeIn">
-        
         {/* Left Side: Sign Up Form */}
         <div className="w-full md:w-1/2 bg-white p-10 flex flex-col justify-center items-center">
-          <h2 className="text-3xl font-bold mb-6 text-gray-800">Create Account</h2>
+          <h2 className="text-3xl font-bold mb-6 text-gray-800">
+            Create Account
+          </h2>
 
           <input
             type="text"
@@ -62,14 +63,14 @@ function SignUp() {
             Sign Up
           </button>
 
-
           <p className="mt-4 text-sm text-gray-600">
             Already have an account?{" "}
-
-                         <Link to="/Login" className="text-blue-600 hover:underline font-medium">
-             Log In
+            <Link
+              to="/Login"
+              className="text-blue-600 hover:underline font-medium"
+            >
+              Log In
             </Link>
-         
           </p>
         </div>
 
@@ -77,7 +78,8 @@ function SignUp() {
         <div className="hidden md:flex w-1/2 bg-gradient-to-tr from-blue-100 to-blue-200 p-10 flex-col justify-center items-center text-center">
           <h1 className="text-4xl font-bold text-blue-800 mb-4">Join Us!</h1>
           <p className="text-gray-700 text-base leading-relaxed max-w-sm">
-            Create an account to explore amazing features, manage your profile, and grow with us.
+            Create an account to explore amazing features, manage your profile,
+            and grow with us.
           </p>
         </div>
       </div>

@@ -43,7 +43,7 @@ src/
 - Navigating between pages using `useNavigate` and `Link`
 - Structuring pages and components modularly
 
-## 🙋‍♂️ Author
+##  Author
 
 **Dhruv Sharma**  
 [GitHub Profile](https://github.com/DhruvSharma49)
